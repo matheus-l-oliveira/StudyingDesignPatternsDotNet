@@ -125,9 +125,9 @@ namespace StudyingDesignPatternsDotNet
         }
     }
 
-    public class Demo
+    public class Demo02
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             var apple = new Product("Apple", Color.Green, Size.Small);
             var tree = new Product("Tree", Color.Green, Size.Large);

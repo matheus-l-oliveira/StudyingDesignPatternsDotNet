@@ -59,9 +59,9 @@ breaks single responsibility principle, do not use!
         }
     }
 
-    public class Demo
+    public class Demo01
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             var j = new Journal();
             j.AddEntry("I cried today.");
